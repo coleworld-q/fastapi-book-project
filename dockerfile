@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 # Copy project files
 COPY . .
 
-# Install Nginx
+# Install Nginx -
 RUN apt update && apt install -y nginx
 
 # Copy Nginx configuration
